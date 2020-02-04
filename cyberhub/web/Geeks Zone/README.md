@@ -8,7 +8,7 @@ Flag format is CYBERHUB{...}
 
 # Writeup
 
-When you access the website, you will see an error : **Notice: Undefined index: geek **
+When you access the website, you will see an error **Undefined index: geek**
  
  ![error](1.png)
 
