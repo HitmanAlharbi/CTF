@@ -100,7 +100,7 @@ Now extract all the data, and get the admin's password from the database
 admin : This_Password_4Admin
 ```
 
-After login, you will a header called **Location**, will redirect you to **getflag.php**
+After login, you will see a header called **Location**, will redirect you to **getflag.php**
 
 
 ![login](login.png)
