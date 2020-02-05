@@ -22,11 +22,11 @@ Accessing this link will view the PHP source code of the page
 
 2 - Then it will check if the **in1** and **in2** doesn't have the same value, if they equal will print **Sorry this value not valid**
 
-3 - Then it will encrypt the two values to MD5 with a hidden salt exists in flag.php file
+3 - Then it will hash the two values to MD5 with a hidden salt exists in flag.php file
 
 4 - After that will check if the first hash of **in1** equal the second hash of **in2**, if equal will print the flag
 
-5 - You can bypass this trick by change the parameters to arrays [Type juggling] with different values to bypass the 1st condition
+5 - You can bypass this trick by change the parameters to arrays [Type juggling because array will return null] with different values to bypass the 1st condition
 
 ```
 52.49.208.227:8889/?in1[]=1&in2[]=anything
